@@ -1,0 +1,19 @@
+digraph G{
+Nodo1[shape = circle, label =" Nombre: Vivian
+Apellido: Alvarez
+Teléfono: 1234"]
+Nodo2[shape = circle, label =" Nombre: Susy
+Apellido: Jimenez
+Teléfono: 5678"]
+Nodo3[shape = circle, label =" Nombre: Jorge
+Apellido: Perez
+Teléfono: 9012"]
+Nodo4[shape = circle, label =" Nombre: Erick
+Apellido: Solis
+Teléfono: 1234"]
+Cola[shape = circle, label =" None"]
+Nodo1->Nodo2->Nodo1
+Nodo2->Nodo3->Nodo2
+Nodo3->Nodo4->Nodo3
+Nodo4->Cola
+}
